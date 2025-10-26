@@ -1,163 +1,151 @@
 
 body {
-  background: #f5f8fa;
+  background: linear-gradient(120deg, #ece4ff 0%, #faf5e6 100%);
   font-family: 'Montserrat', Arial, sans-serif;
   margin: 0;
   padding: 0;
-  color: #212121;
+  color: #242047;
 }
-
 .container {
   max-width: 480px;
-  margin: 3rem auto;
-  padding: 1rem;
-  background: #fff;
-  border-radius: 16px;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.09), 0 1.5px 8px rgba(0,0,0,0.08);
+  margin: 2.2rem auto;
+  padding: 1rem 1.2rem;
+  background: #fffafc;
+  border-radius: 34px 12px 28px 18px;
+  box-shadow: 0 7px 28px rgba(95,0,255,0.09), 0 2px 12px rgba(220,142,250,0.13);
 }
-
-.hero-card {
-  text-align: center;
-}
-
+.hero-card { text-align: center; }
 .badge {
   display: inline-block;
-  background: #1e80cd;
-  color: #fff;
-  border-radius: 22px;
-  padding: 6px 18px;
+  background: linear-gradient(90deg,#ffaf4d 60%, #fad56b 100%);
+  color: #9831b7;
+  border-radius: 23px;
+  padding: 8px 20px;
   font-weight: bold;
-  font-size: 1rem;
-  letter-spacing: .018em;
-  margin-bottom: 1rem;
+  font-size: 1.08rem;
+  letter-spacing: .03em;
+  margin-bottom: 1.1rem;
+  box-shadow: 0 1.5px 7px #ffe3bc;
 }
-
 h1 {
-  font-size: 2em;
+  font-size: 2.12em;
   font-weight: 700;
-  margin: .2em 0 .3em 0;
+  margin: .18em 0 .36em 0;
+  color: #9831b7;
 }
-
 h2 {
   font-size: 1.3em;
   font-weight: 400;
-  color: #1e80cd;
+  color: #702980;
   margin-bottom: 1em;
 }
-
 .book-cover-placeholder {
   width: 110px; height: 165px;
-  background: #e2e8f0;
-  border-radius: 7px;
-  margin: .8em auto 1em auto;
+  background: linear-gradient(120deg,#e3d7ff 40%,#fffbe6 160%);
+  border-radius: 9px;
+  margin: .7em auto 1.1em auto;
   display: flex; align-items: center; justify-content: center;
-  font-size: .95em; color: #888;
+  font-size: .97em; color: #9831b7;
+  border: 2.5px dashed #fad56b;
 }
-
 .lead {
-  font-size: 1.08em;
-  margin: 1em auto;
-  color: #353535;
+  font-size: 1.09em;
+  margin: 1em auto 1.1em auto;
+  color: #3d215b;
 }
-
 .benefits-list {
   list-style: none;
   padding: 0;
-  margin: 1.2em 0 1em 0;
+  margin: 1.4em 0 1em 0;
 }
-
 .benefits-list li {
-  background: #f0f3fa;
-  margin-bottom: 8px;
-  padding: 9px 16px;
-  border-radius: 6px;
-  font-size: .98em;
-  font-weight: 500;
-  color: #1873ba;
+  background: #fae8fc;
+  margin-bottom: 10px;
+  padding: 11px 17px;
+  border-radius: 8px;
+  font-size: 1em;
+  font-weight: 600;
+  color: #702980;
+  border: 1.5px solid #fad56b;
 }
-
 .cta-btns {
-  margin: 2em 0 1.2em 0;
+  margin: 2.3em 0 1.2em 0;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 16px;
   align-items: center;
 }
-
 .btn {
-  padding: 14px 26px;
-  font-size: 1.07em;
+  padding: 15px 30px;
+  font-size: 1.09em;
   font-weight: bold;
-  border-radius: 47px;
+  border-radius: 55px;
   text-decoration: none;
-  transition: box-shadow .15s;
+  transition: box-shadow .16s;
   border: none;
-  box-shadow: 0 2px 8px rgba(30,128,205,.08);
-  background: #1e80cd;
+  box-shadow: 0 4px 16px rgba(245,175,77,0.06);
+  background: #9831b7;
   color: #fff;
   cursor: pointer;
   display: inline-block;
 }
-
 .btn.primary {
-  background: linear-gradient(90deg,#1e80cd 60%, #23a6e6 100%);
-  color: #fff;
+  background: linear-gradient(90deg,#ffd95e 60%, #fa77cf 100%);
+  color: #702980;
+  border: 1.7px solid #9831b7;
 }
 .btn.primary:hover {
-  filter: brightness(0.96);
+  filter: brightness(0.93);
+  background: linear-gradient(90deg,#fae68c 60%, #fad4f7 100%);
 }
 .btn.secondary {
-  background: #ececec;
-  color: #337ab7;
+  background: #fffafc;
+  color: #9831b7;
+  border: 1.3px solid #ffd95e;
 }
 .btn.secondary:hover {
-  background: #dde4ec;
-  color: #16649c;
+  background: #f9ebff;
+  color: #fa77cf;
 }
-
 .tip {
-  font-size: .97em;
-  margin-top: .8em;
-  color: #888;
+  font-size: .98em;
+  margin-top: .9em;
+  color: #d697fa;
 }
-
 .community-call {
-  margin-top: 2em;
-  font-size: 1.03em;
-  color: #2a84c7;
+  margin-top: 2.1em;
+  font-size: 1.05em;
+  color: #fa77cf;
+  font-weight: 600;
 }
-
 .brand-footer {
   font-size: .94em;
-  color: #b4c1cd;
-  margin-top: .5em;
+  color: #bf88e6;
+  margin-top: .7em;
 }
-
 blockquote.slogan {
-  margin: 2.2em 0 1em 0;
+  margin: 2.4em 0 1.1em 0;
   font-style: italic;
-  color: #1e80cd;
-  font-size: 1.1em;
-  border-left: 5px solid #f0c211;
-  padding-left: 1em;
+  color: #9831b7;
+  font-size: 1.18em;
+  border-left: 8px solid #ffd95e;
+  padding-left: 1.1em;
+  background: #f9f6ff;
 }
-
 .mini-guide {
   display: block;
-  font-size: .93em;
-  color: #f0c211;
-  margin-top: .6em;
+  font-size: .94em;
+  color: #fad56b;
+  margin-top: .7em;
 }
-
 .motivation {
-  font-size: .97em;
-  color: #333;
-  margin: 1.4em 0 0 0;
+  font-size: .99em;
+  color: #ffaabe;
+  margin: 1.5em 0 0 0;
 }
-
 @media screen and (max-width: 600px) {
-  .container { max-width: 96vw; margin: 1.2rem auto; }
-  h1 { font-size: 1.55em; }
-  h2 { font-size: 1.08em; }
-  .btn { font-size: 1em; padding: 12px 10vw; }
+  .container { max-width: 98vw; margin: 1.3rem auto; }
+  h1 { font-size: 1.35em; }
+  h2 { font-size: 1.01em; }
+  .btn { font-size: .97em; padding: 12px 7vw; }
 }
