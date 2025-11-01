@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="fr">
 <head>
@@ -18,7 +17,7 @@
       <h2>Pack pratique pour démarrer</h2>
       <p class="lead">
         Téléchargez maintenant votre pack pratique VIP : modèles <strong>Devis</strong>, <strong>Facture</strong>, <strong>FDS</strong>, <strong>SDS</strong>, <strong>Check-lists</strong> et <strong>Photos</strong>.<br>
-        <strong>Accès direct 100 % gratuit, aucun mail à donner.</strong>
+        <strong>Accès direct 100 % gratuit, aucun mail à donner.</strong>
       </p>
       <ul class="benefits-list">
         <li>Devis</li>
@@ -29,12 +28,12 @@
         <li>Photos</li>
       </ul>
       <div class="cta-btns">
-        <a class="btn primary" href="LIEN_DRIVE_VOTRE_PACK" target="_blank" rel="noopener">
+        <a class="btn primary" href="#" id="downloadBtn">
           Télécharger le pack maintenant
         </a>
       </div>
       <p class="tip">
-        Astuce : Si le téléchargement ne s’ouvre pas, clic droit → <em>Ouvrir le lien dans un nouvel onglet</em>
+        Astuce : Si le téléchargement ne s'ouvre pas, clic droit → <em>Ouvrir le lien dans un nouvel onglet</em>
       </p>
       <footer>
         <p class="community-call">
@@ -46,5 +45,22 @@
       </footer>
     </section>
   </div>
+
+  <script>
+    document.getElementById('downloadBtn').addEventListener('click', function(e) {
+      e.preventDefault();
+      
+      // Lien de téléchargement direct Google Drive
+      var downloadLink = 'https://drive.google.com/uc?export=download&id=1fzlvaDyZk0TBcqdyFKSDPovszqiEdmNY';
+      
+      // Ouvre le téléchargement dans un nouvel onglet
+      window.open(downloadLink, '_blank');
+      
+      // Redirige vers la page de remerciement après 1 seconde
+      setTimeout(function() {
+        window.location.href = 'thanks.html';
+      }, 1000);
+    });
+  </script>
 </body>
 </html>
